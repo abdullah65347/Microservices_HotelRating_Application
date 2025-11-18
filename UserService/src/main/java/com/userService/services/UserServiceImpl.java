@@ -29,7 +29,6 @@ public class UserServiceImpl implements UserService {
 	@Autowired
 	private HotelService hotelService;
 
-
 	@Override
 	public User saveUser(User user) {
 		String randomUserId = UUID.randomUUID().toString();
