@@ -59,7 +59,6 @@ public class UserServiceImpl implements UserService {
 			r.setHotel(hotel);
 		}
 		user.setRating(ratings);
-
 		return user;
 	}
 
